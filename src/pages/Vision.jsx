@@ -7,6 +7,8 @@ function Vision() {
       <Description>
         The Zoo Animal Locator API allows users to search for a specific animal and retrieve a list of zoos that house that animal. This API helps users easily find where a particular species can be viewed, whether for educational purposes, planning visits, or research on zoo-based conservation efforts. In addition to finding zoos, the API provides detailed information about the animal, including its name, species, diet, and natural habitat.
       </Description>
+      <a href="https://codupont.dk/api/v1/routes">Deployed API</a>
+      <a href="https://github.com/DeZoete/sp2sem3">Git repository for API</a>
     </VisionContainer>
   );
 }
