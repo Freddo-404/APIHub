@@ -22,7 +22,7 @@ export default function Home() {
   );
 }
 
-// Styled Components
+// Styled Components. Hello
 
 const HomeContainer = styled.div`
   display: flex;

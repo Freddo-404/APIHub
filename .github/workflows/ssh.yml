@@ -2,9 +2,9 @@ name: Deploy Frontend to DigitalOcean
 
 on:
   push:
-    branches: [main] # Trigger on direct pushes to the main branch
+    branches: [master] # Trigger on direct pushes to the main branch
   pull_request:
-    branches: [main] # Trigger when a pull request targeting main is merged/closed
+    branches: [master] # Trigger when a pull request targeting main is merged/closed
 
 jobs:
   deploy:
@@ -38,5 +38,5 @@ jobs:
           APP_NAME="zooapp"
           REMOTE_PATH="/home/jetty/deployment/site/$APP_NAME/"
 
-          # Sync build output to the Droplet using rsync. Hello
+          # Sync build output to the Droplet using rsync.
           rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./dist/ $SSH_USER@$DO_DROPLET_IP:$REMOTE_PATH
