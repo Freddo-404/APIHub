@@ -2,7 +2,7 @@ import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } 
 import RootLayout from './layouts/RootLayout';
 import Home from './pages/Home'; // Ensure correct file path and naming
 import Vision from './pages/Vision';
-import Endpoints from './pages/endpoints';
+import Endpoints from './pages/Endpoints';
 import Error404Page from './pages/Error404Page';
 
 
