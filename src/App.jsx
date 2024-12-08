@@ -1,7 +1,7 @@
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import RootLayout from './layouts/RootLayout';
 import Home from './pages/Home'; // Ensure correct file path and naming
-import Vision from './pages/vision';
+import Vision from './pages/Vision';
 import Endpoints from './pages/endpoints';
 import Error404Page from './pages/Error404Page';
 

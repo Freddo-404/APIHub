@@ -97,4 +97,3 @@ const MainContent = styled.div`
   font-size: 24px;
   color: #333;
 `;
-//ye
