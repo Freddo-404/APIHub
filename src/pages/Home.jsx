@@ -1,10 +1,11 @@
 import styled from 'styled-components';
+import image from '../assets/image.png';
 
 export default function Home() {
   return (
     <HomeContainer>
       <TopImage>
-        <img src="image.png" alt="Description of the image" />
+        <img src={image} alt="Description of the image" />
       </TopImage>
       <LowerPart>
         <Sidebar>
